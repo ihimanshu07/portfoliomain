@@ -1,0 +1,13 @@
+/* Importing Inter to mimic Stack Sans */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Glow Animation Class */
+.glow-text {
+  text-shadow: 0 0 20px rgba(110, 231, 134, 0.6);
+}
