@@ -139,7 +139,7 @@ const Portfolio = () => {
         </div>
 
         <a 
-          href="https://drive.google.com/file/d/1OpDm3WplLjDBTwpeH1_mIkXHeBq9K3uW/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1JYzL8yrtpO7OL3rL2oUy4VP77Xii2JJB/view?usp=drive_link"
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-1 cursor-pointer hover:text-yellow-500 transition-colors"
@@ -168,11 +168,10 @@ const Portfolio = () => {
               </div>
               <div className="flex-1 flex flex-col justify-center px-8 md:px-20 gap-4 md:gap-8">
                {[
-                 { title: "Structured Address Data Compilance", link: "https://github.com/" },
-                 { title: "Portfolio v1", link: "https://gaurav-profile.vercel.app/" },
-                 { title: "Movie-Finder", link: "https://movie-finder-two-kappa.vercel.app/" },
-                 { title: "Task manager", link: "https://zohoassignement-60051334413.catalystserverless.in" },
-                 { title: "De-fi investment", link: "https://github.com/ihimanshu07/De-fi-investment-platform.git" }
+                { title: "Dukaan", link: "https://kaka-shop.vercel.app/" },
+                { title: "Task manager", link: "https://zohoassignement-60051334413.catalystserverless.in" },
+                { title: "Movie-Finder", link: "https://movie-finder-two-kappa.vercel.app/" },
+                 { title: "Portfolio v1", link: "https://gaurav-profile.vercel.app/" }
                ].map((project, i) => (
                  <motion.a
                    key={i}
